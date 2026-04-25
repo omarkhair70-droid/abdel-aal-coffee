@@ -158,6 +158,14 @@ p {
   margin-bottom: 0.65rem;
 }
 
+.hero-brand {
+  color: var(--text);
+  font-size: clamp(1.6rem, 3vw, 2.1rem);
+  font-weight: 800;
+  line-height: 1.2;
+  margin-bottom: 0.15rem;
+}
+
 h1 {
   font-size: clamp(2rem, 5vw, 3.8rem);
   line-height: 1.2;
@@ -199,6 +207,13 @@ h1 {
 .mood p {
   max-width: 760px;
   margin-inline: auto;
+}
+
+.mood-support {
+  margin-top: 0.9rem;
+  color: var(--gold-soft);
+  font-size: 1.15rem;
+  font-weight: 700;
 }
 
 .mood-video {
