@@ -7,6 +7,7 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@400;600;700;800&display=swap" rel="stylesheet">
+  <link rel="preload" as="image" href="hero.jpeg">
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
@@ -27,9 +28,6 @@
 
   <main>
     <section class="hero" id="home">
-      <video class="hero-bg" autoplay muted loop playsinline preload="metadata" poster="hero.jpeg" aria-label="بن عبدالعال">
-        <source src="videosloop.mp4" type="video/mp4">
-      </video>
       <div class="hero-overlay"></div>
       <div class="container hero-content reveal">
         <p class="eyebrow">دايمًا عال العال</p>
@@ -46,6 +44,19 @@
       <div class="container reveal">
         <h2>مزاج في كل فنجان</h2>
         <p>بن عبدالعال مش مجرد محل بن. هنا القهوة بتتطحن على مزاجك، وتطلع بفنجان له ريحة وطعم وذكرى.</p>
+      </div>
+    </section>
+
+
+    <section class="mood-video section" aria-label="فيديو المزاج">
+      <div class="container reveal">
+        <h2 class="section-title">شوف المزاج</h2>
+        <p class="mood-video-subtitle">لقطة صغيرة من روح بن عبدالعال.</p>
+        <div class="mood-video-card">
+          <video controls preload="metadata" poster="hero.jpeg" muted playsinline aria-label="فيديو بن عبدالعال">
+            <source src="videosloop.mp4" type="video/mp4">
+          </video>
+        </div>
       </div>
     </section>
 
