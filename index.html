@@ -1,42 +1,140 @@
 <!DOCTYPE html>
-<html lang="ar">
+<html lang="ar" dir="rtl">
 <head>
-<meta charset="UTF-8">
-<title>بن عبد العال</title>
-<link rel="stylesheet" href="style.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>بن عبدالعال | المزاج له أصل</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@400;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
 </head>
-
 <body>
+  <header class="site-header">
+    <div class="container header-wrap">
+      <a href="#home" class="logo">بن عبدالعال</a>
+      <button class="menu-toggle" aria-label="فتح القائمة" aria-expanded="false">☰</button>
+      <nav class="main-nav" id="main-nav">
+        <a href="#home">الرئيسية</a>
+        <a href="#mood">المزاج</a>
+        <a href="#products">المنتجات</a>
+        <a href="#location">المكان</a>
+        <a href="#contact">تواصل</a>
+      </nav>
+      <a class="btn btn-gold header-cta" href="https://wa.me/201275556689" target="_blank" rel="noopener">اطلب الآن</a>
+    </div>
+  </header>
 
-<section class="hero">
-  <img src="hero.jpeg">
-  <div class="overlay"></div>
-  <div class="text">
-    <h1>مش كل قهوة تتشرب...</h1>
-    <h2>دي تتظبط</h2>
-  </div>
-</section>
+  <main>
+    <section class="hero" id="home">
+      <img src="hero.jpeg" alt="بن عبدالعال" class="hero-bg">
+      <div class="hero-overlay"></div>
+      <div class="container hero-content reveal">
+        <p class="eyebrow">دايمًا عال العال</p>
+        <h1>مش كل قهوة تتشرب…<br>دي تتظبط.</h1>
+        <p class="hero-sub">طحن طازة قدامك — زي ما تحب.</p>
+        <div class="hero-actions">
+          <a class="btn btn-gold" href="https://wa.me/201275556689" target="_blank" rel="noopener">اطلب على واتساب</a>
+          <a class="btn btn-outline" href="#products">شوف المنتجات</a>
+        </div>
+      </div>
+    </section>
 
-<section class="story">
-  <div class="left">
-    <h2>مزاج في كل فنجان</h2>
-    <p>طحن طازة زي ما تحب</p>
-  </div>
-  <div class="right">
-    <img src="product.jpeg">
-  </div>
-</section>
+    <section class="mood section" id="mood">
+      <div class="container reveal">
+        <h2>مزاج في كل فنجان</h2>
+        <p>بن عبدالعال مش مجرد محل بن. هنا القهوة بتتطحن على مزاجك، وتطلع بفنجان له ريحة وطعم وذكرى.</p>
+      </div>
+    </section>
 
-<section class="store">
-  <img src="store.jpeg">
-  <div class="overlay"></div>
-  <h2>دايماً عال العال</h2>
-</section>
+    <section class="products section" id="products">
+      <div class="container">
+        <h2 class="section-title reveal">المزاج يتقدم لك بأربع طرق</h2>
+        <div class="cards-grid">
+          <article class="card reveal">
+            <span class="icon">☕</span>
+            <h3>بن سادة</h3>
+            <p>طعم أصيل ونقي لعشاق القهوة على أصولها.</p>
+          </article>
+          <article class="card reveal">
+            <span class="icon">✨</span>
+            <h3>بن محوج</h3>
+            <p>خلطة متوازنة بروح شرقية وريحة تخطف القلب.</p>
+          </article>
+          <article class="card reveal">
+            <span class="icon">⚙️</span>
+            <h3>طحن حسب الطلب</h3>
+            <p>درجة الطحن اللي تناسبك من أول مرة، قدام عينك.</p>
+          </article>
+          <article class="card reveal">
+            <span class="icon">📦</span>
+            <h3>بيع جملة</h3>
+            <p>تجهيزات للكافيهات والمحلات بجودة ثابتة وسعر مناسب.</p>
+          </article>
+        </div>
+      </div>
+    </section>
 
-<section class="cta">
-  <h3>اتصل بينا</h3>
-  <p>01275556689 - 01006103107</p>
-</section>
+    <section class="showcase section">
+      <div class="container showcase-wrap reveal">
+        <div class="showcase-image-wrap">
+          <img src="product.jpeg" alt="منتجات بن عبدالعال" class="showcase-image">
+        </div>
+        <div class="showcase-text">
+          <h2>من الحبة للفنجان</h2>
+          <p>اختار مزاجك، وإحنا نطحنه قدامك بالطريقة اللي تحبها.</p>
+          <ul>
+            <li>طحن طازة قدامك</li>
+            <li>خامات منتقاة بعناية</li>
+            <li>بن سادة ومحوج ومشروبات</li>
+          </ul>
+        </div>
+      </div>
+    </section>
 
+    <section class="location section" id="location">
+      <div class="container location-wrap reveal">
+        <div class="location-media">
+          <img src="store.jpeg" alt="موقع بن عبدالعال">
+        </div>
+        <div class="location-info">
+          <h2>المزاج له أصل</h2>
+          <p>زورنا في بني سويف، شارع الإذاعة والتلفزيون.</p>
+          <div class="location-actions">
+            <a class="btn btn-gold" href="tel:01275556689">اتصل الآن</a>
+            <a class="btn btn-outline" href="https://wa.me/201006103107" target="_blank" rel="noopener">تواصل واتساب</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="gallery section" aria-label="معرض الصور">
+      <div class="container reveal">
+        <div class="gallery-grid">
+          <figure class="gallery-item"><img src="hero.jpeg" alt="تحضير القهوة"></figure>
+          <figure class="gallery-item"><img src="product.jpeg" alt="منتجات البن"></figure>
+          <figure class="gallery-item"><img src="store.jpeg" alt="واجهة المحل"></figure>
+        </div>
+      </div>
+    </section>
+
+    <section class="final-cta section" id="contact">
+      <div class="container final-cta-wrap reveal">
+        <h2>جاهز تزبط مزاجك؟</h2>
+        <p>المزاج له أصل — مش كل قهوة تتشرب… دي تتظبط.</p>
+        <div class="hero-actions">
+          <a class="btn btn-gold" href="tel:01006103107">اتصل الآن</a>
+          <a class="btn btn-outline" href="https://wa.me/201275556689" target="_blank" rel="noopener">واتساب</a>
+        </div>
+        <div class="contacts">
+          <span>01275556689</span>
+          <span>01006103107</span>
+          <span>بني سويف - شارع الإذاعة والتلفزيون</span>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <script src="script.js"></script>
 </body>
 </html>
